@@ -7,13 +7,13 @@
 }
 
 html {
+	font-size: 62.5%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-image: url(images/bg-pattern-bottom-desktop.svg);
 }
 
 body {
-	font-size: 62.5%;
 	height: 100vh;
 	background-image: url(images/bg-pattern-top-desktop.svg);
 	background-repeat: no-repeat;
