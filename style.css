@@ -18,8 +18,4 @@ body {
 	background-image: url(images/bg-pattern-top-desktop.svg);
 	background-repeat: no-repeat;
 	font-family: "League Spartan", sans-serif;
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column; */
 }
