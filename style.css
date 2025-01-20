@@ -17,5 +17,5 @@ body {
 	height: 100vh;
 	background-image: url(images/bg-pattern-top-desktop.svg);
 	background-repeat: no-repeat;
-	font-family: "League Spartan", sans-serif;
+	font-family: "League Spartan", "Dank-Mono", sans-serif;
 }
