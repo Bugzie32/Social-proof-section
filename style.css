@@ -3,17 +3,16 @@
 
 /* //TODO: Add colors from "var" */
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 :root {
 	--clr-primary: hsl(300, 43%, 22%);
 	--clr-trim: hsl(333, 80%, 67%);
 	--clr-light: hsl(300, 24%, 96%);
 	--clr-white: hsl(0, 0%, 100%);
-}
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 html {
@@ -28,4 +27,16 @@ body {
 	background-image: url(images/bg-pattern-top-desktop.svg);
 	background-repeat: no-repeat;
 	font-family: "League Spartan", "Dank-Mono", sans-serif;
+}
+
+h1 {
+	font-size: 5rem;
+	color: var(--clr-primary);
+}
+
+.users-p {
+	color: var(--clr-primary);
+	opacity: 0.58;
+	font-size: 1.8rem;
+	font-weight: 500;
 }
