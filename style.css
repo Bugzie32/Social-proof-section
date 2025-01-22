@@ -24,9 +24,20 @@ html {
 
 body {
 	height: 100vh;
+	width: 100%;
 	background-image: url(images/bg-pattern-top-desktop.svg);
 	background-repeat: no-repeat;
 	font-family: "League Spartan", "Dank-Mono", sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.container-top {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 h1 {
@@ -39,4 +50,41 @@ h1 {
 	opacity: 0.58;
 	font-size: 1.8rem;
 	font-weight: 500;
+}
+
+.container-rated {
+	background-color: var(--clr-light);
+}
+
+.rated {
+	color: var(--clr-primary);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.container-buyer {
+	display: flex;
+}
+
+.buyer {
+	background-color: var(--clr-primary);
+	color: var(--clr-white);
+
+	.buyer-name {
+		font-size: 1.5rem;
+	}
+
+	.verified-buyer {
+		font-size: 1.5rem;
+		color: var(--clr-trim);
+	}
+
+	.buyer-comment {
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+}
+
+.picture {
+	border-radius: 50%;
 }
