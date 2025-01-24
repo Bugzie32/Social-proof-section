@@ -21,6 +21,9 @@ html {
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
 	width: 100%;
 	background-image: url(images/bg-pattern-top-desktop.svg);
@@ -28,26 +31,39 @@ body {
 	font-family: "League Spartan", "Dank-Mono", sans-serif;
 }
 
+/* FIXME: Fix max-width issue with "main" tag */
+
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	.container-top {
-		display: flex;
-		flex-direction: row;
+	max-width: 80%;
+}
+
+.container-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	.container-product {
+		width: 40%;
 	}
-}
 
-h1 {
-	font-size: 5rem;
-	color: var(--clr-primary);
-}
+	.reviews {
+		width: 40%;
+	}
 
-.users-p {
-	color: var(--clr-primary);
-	opacity: 0.58;
-	font-size: 1.8rem;
-	font-weight: 500;
+	h1 {
+		font-size: 5rem;
+		color: var(--clr-primary);
+		line-height: 4.5rem;
+	}
+	.users-p {
+		color: var(--clr-primary);
+		opacity: 0.58;
+		font-size: 1.8rem;
+		font-weight: 500;
+	}
 }
 
 .container-rated {
