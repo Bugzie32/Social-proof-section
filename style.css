@@ -31,13 +31,14 @@ body {
 	font-family: "League Spartan", "Dank-Mono", sans-serif;
 }
 
-/* FIXME: Fix max-width issue with "main" tag */
+/* FIXME: Rated gap and width*/
 
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 80%;
+	max-width: 1110px;
+	margin: 0 20px;
 }
 
 .container-top {
@@ -47,27 +48,34 @@ main {
 
 	.container-product {
 		width: 40%;
-	}
-
-	.reviews {
-		width: 40%;
-	}
-
-	h1 {
-		font-size: 5rem;
-		color: var(--clr-primary);
-		line-height: 4.5rem;
-	}
-	.users-p {
-		color: var(--clr-primary);
-		opacity: 0.58;
-		font-size: 1.8rem;
-		font-weight: 500;
+		h1 {
+			color: var(--clr-primary);
+			padding-bottom: 2rem;
+			line-height: 4.5rem;
+			font-size: 5rem;
+		}
+		.users-p {
+			color: var(--clr-primary);
+			font-size: 1.8rem;
+			font-weight: 500;
+			opacity: 0.58;
+			padding-bottom: 7rem;
+		}
 	}
 }
 
-.container-rated {
-	background-color: var(--clr-light);
+.reviews {
+	.rating {
+		.container-rated {
+			display: flex;
+			flex-direction: row;
+			background-color: var(--clr-light);
+			padding: 2em;
+			padding-right: 5em;
+			gap: 4em;
+			margin-bottom: 1.5rem;
+		}
+	}
 }
 
 .rated {
