@@ -52,7 +52,7 @@ main {
 			color: var(--clr-primary);
 			padding-bottom: 2rem;
 			line-height: 4.5rem;
-			font-size: 5rem;
+			font-size: 5.25rem;
 		}
 		.users-p {
 			color: var(--clr-primary);
@@ -70,10 +70,11 @@ main {
 			display: flex;
 			flex-direction: row;
 			background-color: var(--clr-light);
-			padding: 2em;
+			padding: 1.5em;
 			padding-right: 5em;
 			gap: 4em;
 			margin-bottom: 1.5rem;
+			border-radius: 8px;
 		}
 	}
 }
