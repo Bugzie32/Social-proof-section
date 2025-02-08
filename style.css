@@ -66,6 +66,8 @@ main {
 
 .reviews {
 	.rating {
+		margin-right: 40px;
+
 		.container-rated {
 			display: flex;
 			flex-direction: row;
