@@ -77,13 +77,12 @@ main {
 			border-radius: 8px;
 		}
 	}
-}
-
-.rating-2 {
-	margin-right: 4rem;
-}
-.rating-1 {
-	margin-right: 8rem;
+	.rating-1 {
+		margin-right: 8rem;
+	}
+	.rating-2 {
+		margin-right: 4rem;
+	}
 }
 
 .rated {
