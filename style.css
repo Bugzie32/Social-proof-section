@@ -95,6 +95,7 @@ main {
 
 .container-buyer {
 	display: flex;
+	gap: 3rem;
 }
 
 .buyer {
@@ -103,6 +104,7 @@ main {
 
 	.buyer-name {
 		font-size: 1.5rem;
+		line-height: 1.7em;
 	}
 
 	.verified-buyer {
@@ -113,6 +115,7 @@ main {
 	.buyer-comment {
 		font-size: 1.5rem;
 		font-weight: 400;
+		line-height: 2rem;
 	}
 }
 
@@ -121,6 +124,19 @@ main {
 }
 
 img {
-	width: 10%;
+	width: 15%;
 	height: auto;
+	margin-right: 2em;
+}
+
+.buyer-main {
+	padding: 3em;
+	border-radius: 7px;
+	max-width: 30%;
+}
+
+.picture-name {
+	display: flex;
+	margin-bottom: 3em;
+	align-items: center;
 }
