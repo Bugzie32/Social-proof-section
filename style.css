@@ -91,11 +91,9 @@ main {
 	font-weight: 700;
 }
 
-/* Complete Buyer section similar to review/rated section  */
-
 .container-buyer {
 	display: flex;
-	gap: 3rem;
+	justify-content: space-between;
 }
 
 .buyer {
