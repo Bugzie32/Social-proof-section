@@ -97,7 +97,7 @@ main {
 }
 
 .buyer {
-	height: 220px;
+	height: fit-content;
 	background-color: var(--clr-primary);
 	color: var(--clr-white);
 
@@ -147,4 +147,30 @@ img {
 
 .buyer3 {
 	margin-top: 4em;
+}
+
+/* @Media Start */
+
+@media (max-width: 860px) {
+	.container-top {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container-product {
+		text-align: center;
+	}
+}
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rating-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 0rem;
 }
