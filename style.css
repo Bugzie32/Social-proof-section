@@ -43,22 +43,21 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
-	.container-product {
-		width: 40%;
-		h1 {
-			color: var(--clr-primary);
-			padding-bottom: 2rem;
-			line-height: 4.5rem;
-			font-size: 5.25rem;
-		}
-		.users-p {
-			color: var(--clr-primary);
-			font-size: 1.8rem;
-			font-weight: 500;
-			opacity: 0.58;
-			padding-bottom: 7rem;
-		}
+}
+.container-product {
+	width: 40%;
+	h1 {
+		color: var(--clr-primary);
+		padding-bottom: 2rem;
+		line-height: 4.5rem;
+		font-size: 5.25rem;
+	}
+	.users-p {
+		color: var(--clr-primary);
+		font-size: 1.8rem;
+		font-weight: 500;
+		opacity: 0.58;
+		padding-bottom: 7rem;
 	}
 }
 
@@ -78,10 +77,10 @@ main {
 		}
 	}
 	.rating-1 {
-		margin-right: 8rem;
+		margin-right: 8em;
 	}
 	.rating-2 {
-		margin-right: 4rem;
+		margin-right: 4em;
 	}
 }
 
@@ -160,17 +159,39 @@ img {
 
 	.container-product {
 		text-align: center;
+		min-width: 335px;
 	}
-}
+	.reviews {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.rating-1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-right: 0rem;
+		}
+		.rating-2 {
+			margin-right: 0;
+		}
+	}
 
-.reviews {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	.rating-1 {
+	/* Fix this shit */
+
+	.container-rated {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		margin-right: 0rem;
+		align-items: center;
+		width: 90%;
+	}
+
+	.container-buyer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.buyer-main {
+		max-width: 330px;
 	}
 }
