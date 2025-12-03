@@ -162,16 +162,12 @@ img {
 		min-width: 335px;
 	}
 	.reviews {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		.rating-1 {
+		.rating-1,
+		.rating-2,
+		.rating-3 {
 			display: flex;
-			flex-direction: column;
 			justify-content: center;
-			margin-right: 0rem;
-		}
-		.rating-2 {
+			align-items: center;
 			margin-right: 0;
 		}
 	}
