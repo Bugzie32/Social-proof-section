@@ -173,8 +173,6 @@ img {
 		}
 	}
 
-	/* Fix this shit */
-
 	.container-rated {
 		display: flex;
 		flex-direction: column;
@@ -191,4 +189,7 @@ img {
 	.buyer-main {
 		max-width: 330px;
 	}
+}
+.buyer3 {
+	margin-top: 2em;
 }
